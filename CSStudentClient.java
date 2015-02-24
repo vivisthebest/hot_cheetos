@@ -7,7 +7,7 @@ public class CSStudentClient {
     Scanner input = new Scanner(System.in);
     String location = "";
 
-    System.out.print("Welcome! Where is your closest CVS?\nEnter location and press Enter");
+    System.out.print("Welcome! Where is your closest CVS?\nEnter location and press Enter ");
     if (input.hasNextLine()) location = input.nextLine();
     CVS home = new CVS(location, MAX_VALUE);
 
