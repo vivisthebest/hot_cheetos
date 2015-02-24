@@ -1,5 +1,4 @@
-all: compile run
+all: compile
 
 compile: *.java ; javac $?
-run: *Client.java ; java $?
 clean: *.class *.java~ ; rm -rf $?
