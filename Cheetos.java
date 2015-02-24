@@ -4,7 +4,11 @@ public class Cheetos {
 
   public Cheetos(String type, int quantity) {
     this.type = type;
-    this.quantity = quantity;
+    if (quantity >= 0) {
+      this.quantity = quantity;
+    } else {
+      this.quantity = 0;
+    }
   }
 
   public int getQuantity() {
