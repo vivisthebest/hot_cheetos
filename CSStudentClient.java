@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
 public class CSStudentClient {
-  public static final int MAX_VALUE;
+  public static final int MAX_VALUE = 2147483647;
 
   public static void main(String []args) {
     Scanner input = new Scanner(System.in);
-    String location;
+    String location = "";
 
     System.out.print("Welcome! Where is your closest CVS?\nEnter location and press Enter");
     if (input.hasNextLine()) location = input.nextLine();
