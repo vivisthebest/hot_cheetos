@@ -35,8 +35,8 @@ public class CVS {
     this.numHotCheetos += quantity;
     System.out.println("The world can run again!");
   }
-  
-  public boolen isOutOfCheetos() {
+
+  public boolean isOutOfCheetos() {
     return (this.numHotCheetos == 0);
   }
 }

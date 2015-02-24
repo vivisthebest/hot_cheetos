@@ -19,7 +19,7 @@ public class CSStudentClient {
       if (input.hasNext()) {
         Cheetos cheetosStash = home.buyCheetos(input.next(), quantity);
 
-        while (cheetosStash.getQuantity()) {
+        while (cheetosStash.getQuantity() > 0) {
           cheetosStash.eat();
         }
       }
