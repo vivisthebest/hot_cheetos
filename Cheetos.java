@@ -13,7 +13,7 @@ public class Cheetos {
 
   public void eat() {
     this.quantity--;
-    System.out.println("That was yummy. Now I have " + this.quantity + " cheetos left!")
+    System.out.println("That was yummy. Now I have " + this.quantity + " hot cheetos left!")
   }
 
   public boolean isEmpty() {

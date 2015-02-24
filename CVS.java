@@ -14,11 +14,11 @@ public class CVS {
         System.out.println("Here area all the cheetos we have left.");
         quantity = this.numHotCheetos;
         this.numHotCheetos = 0;
-        System.out.println("Buying " + quantity + " cheetos.")
+        System.out.println("Buying " + quantity + " hot cheetos.")
         return new Cheetos("hot", quantity);
       } else {
         this.numHotCheetos -= quantity;
-        System.out.println("Buying " + quantity + " cheetos.")
+        System.out.println("Buying " + quantity + " hot cheetos.")
         return new Cheetos("hot", quantity);
       }
     } else {
