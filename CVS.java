@@ -3,7 +3,11 @@ public class CVS {
   private int numHotCheetos;
 
   public CVS(String location, int numHotCheetos) {
-    this.location = location;
+    if (location.equals("")) {
+      this.location = "NOWHERE";
+    } else {
+      this.location = location;
+    }
     if (numHotCheetos >= 0) {
       this.numHotCheetos = numHotCheetos;
     } else {
